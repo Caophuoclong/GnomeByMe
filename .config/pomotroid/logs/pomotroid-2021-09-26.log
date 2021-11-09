@@ -1,0 +1,14 @@
+{"message":"Preferences loaded from /home/phuoclong/.config/pomotroid/user-preferences.json","level":"info","hostname":"ThinkBookG2","timestamp":"2021-09-26T07:21:35.622Z"}
+{"message":"app ready","level":"info","hostname":"ThinkBookG2","timestamp":"2021-09-26T07:21:35.679Z"}
+{"message":"Registering shortcut for call-timer-toggle: Control+F1","level":"info","hostname":"ThinkBookG2","timestamp":"2021-09-26T07:21:35.755Z"}
+{"message":"Registering shortcut for call-timer-reset: Control+F2","level":"info","hostname":"ThinkBookG2","timestamp":"2021-09-26T07:21:35.756Z"}
+{"message":"Registering shortcut for call-timer-skip: Control+F3","level":"info","hostname":"ThinkBookG2","timestamp":"2021-09-26T07:21:35.756Z"}
+{"message":"creating directory: /home/phuoclong/.config/pomotroid/themes","level":"info","hostname":"ThinkBookG2","timestamp":"2021-09-26T07:21:35.976Z"}
+{"message":"Preferences loaded from /home/phuoclong/.config/pomotroid/user-preferences.json","level":"info","hostname":"ThinkBookG2","timestamp":"2021-09-26T07:21:36.000Z"}
+{"message":"Preferences loaded from /home/phuoclong/.config/pomotroid/user-preferences.json","level":"info","hostname":"ThinkBookG2","timestamp":"2021-09-26T08:08:18.843Z"}
+{"message":"app ready","level":"info","hostname":"ThinkBookG2","timestamp":"2021-09-26T08:08:18.914Z"}
+{"message":"Registering shortcut for call-timer-toggle: Control+F1","level":"info","hostname":"ThinkBookG2","timestamp":"2021-09-26T08:08:19.009Z"}
+{"message":"Registering shortcut for call-timer-reset: Control+F2","level":"info","hostname":"ThinkBookG2","timestamp":"2021-09-26T08:08:19.010Z"}
+{"message":"Registering shortcut for call-timer-skip: Control+F3","level":"info","hostname":"ThinkBookG2","timestamp":"2021-09-26T08:08:19.011Z"}
+{"message":"Preferences loaded from /home/phuoclong/.config/pomotroid/user-preferences.json","level":"info","hostname":"ThinkBookG2","timestamp":"2021-09-26T08:08:19.284Z"}
+{"message":"focus round round started","level":"info","hostname":"ThinkBookG2","timestamp":"2021-09-26T08:08:21.776Z"}

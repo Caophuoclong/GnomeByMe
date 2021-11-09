@@ -1,0 +1,111 @@
+
+    (defwidget system_info [] 
+        (box :orientation "v" :space-evenly "true" :class "sliders-side"  
+            (box :orientation "h" :class "slider-cpu-side" :space-evenly "false" 
+                (box :class "label-cpu-side" "")
+                (scale :min 0 :active "false" :max 100 :value cpu-used))
+            (box :orientation "h" :class "slider-ram-side" :space-evenly "false" 
+                (box :class "label-ram-side" "")
+                (scale :min 0 :active "false" :max 100 :value ram-used))
+             (box :orientation "h" :class "slider-hdd-side" :space-evenly "false" 
+                (box :class "label-hdd-side" "")
+                (scale :min 0 :max 100 :active "false" :value hdd-used))))
+    (defwidget profile [] 
+        (box :orientation "v" :space-evenly "false" :class "profile" 
+            (box :orientation "h" :space-evenly "true" 
+                (image :path "/home/phuoclong/images/barbarossaCircle.png" :width 200 :height 200 :class "pfp"))
+            (box :orientation "v" :space-evenly "false"  
+                (box :class "pfptxt" :valign "center" user)
+                (box :class "subpfptxt" :halign "center" "@${host}"))))
+    (defwidget launch [] 
+      (box :orientation "v" :space-evenly "false" :class "launch" 
+        (box :orientation "h" :halign "center" :class "launch1" :space-evenly "false" 
+          (button :class "internet" :onclick "wmctrl -xa firefox-nightly || setsid -f firefox-nightly" "")
+          (button :class "mail" :onclick "wmctrl -xa geary || setsid -f geary" "")
+          (button :class "music" :onclick "wmctrl -xa spotify || setsid -f spotify" "")
+          (button :class "file" :onclick "setsid -f nautilus" "")
+          (button :class "editor" :onclick "wmctrl -xa code || setsid -f code" ""))
+        (box :orientation "h" :halign "center" :class "launch2" :space-evenly "false" 
+          (button :class "pomo" :onclick "wmctrl -xa joplin || setsid -f joplin-desktop" "")
+          (button :class "notes" :onclick "wmctrl -xa ptask || setsid -f ptask" "")
+          (button :class "rstudio" :onclick "wmctrl -xa rstudio || setsid -f rstudio-bin" "")
+          (button :class "slack" :onclick "wmctrl -xa slack || setsid -f slack" "")
+          (button :class "terminal" :onclick "setsid -f alacritty" ""))))
+    (defwidget weather [] 
+        (box :orientation "h" :space-evenly "false" :class "weather" 
+            (box :class "weather-icon-side" :style "color: ${weather-hex}" weather-icon)
+            (box :class "weather-info-side" :orientation "v" :space-evenly "false" 
+                (box :class "temp-info" :orientation "h" :halign "center" :space-evenly "false" 
+                  (box :class "temperature-side" temperature)
+                  (box :class "thermometer" ""))
+                (box :class "weather-stat-side" weather-stat-side)
+                (box :class "weather-quote1" weather-quote))))
+    (defwidget vol [] 
+      (box :orientation "v" :space-evenly "true" :class "vol" 
+        (box :class "vol-icon" vol-icon)
+        (scale :min 0 :max 100 :active "false" :value current-vol)))
+    (defwidget bright [] 
+      (box :orientation "v" :space-evenly "true" :class "bright" 
+        (box :class "bright-icon" "")
+        (scale :min 0 :max 100 :active "false" :value current-bright)))
+  
+  
+    ;;  Player vars 
+    (defpoll music :interval "3s"  "playerctl metadata --format '{{ artist }}'")
+    (defpoll music2 :interval "3s"  "playerctl metadata --format '{{ album }}'")
+    (defpoll music3 :interval "3s"  "playerctl metadata --format '{{ title }}'")
+    (defpoll musicstat :interval "1s"  "~/.local/bin/spotifystatus")
+    (defpoll position :interval "3s"  "current_track.py | jq -r '.progress_ms'")
+    (defpoll duration :interval "2s"  "current_track.py | jq -r '.item.duration_ms'")
+    (defpoll cover :interval "1s"  "~/.config/eww/scripts/echoart")
+    (defpoll art :interval "1s"  "~/.config/eww/scripts/getart || cp ~/.config/eww/images/image.png /tmp/spotify/cover.png")
+    (defpoll like_status :interval "1s"  "~/.config/eww/scripts/spotify/spotify_to_like_or_not.sh -s")
+    ;;  Calendar vars 
+    ;;  System info vars 
+    (defpoll cpu-used :interval "1s"  "~/.config/eww/scripts/getcpu")
+    (defpoll ram-used :interval "1s"  "~/.config/eww/scripts/getram")
+    (defpoll hdd-used :interval "5s"  "~/.config/eww/scripts/gethdd")
+    ;;  Profile vars 
+    (defpoll user :interval "1h"  "echo $USER")
+    (defpoll host :interval "1h"  "uname -n")
+    ;;  Launcher vars 
+    ;;  Weather vars 
+    (defpoll xxx :interval "10m" "sh /home/phuoclong/.config/eww/scripts/getweather")   
+    (defpoll weather-icon  :interval "5s" "cat /tmp/weather/weather-icon")
+    (defpoll weather-hex  :interval "5s" "cat /tmp/weather/weather-hex")
+    (defpoll temperature :interval "5s"  "cat  /tmp/weather/weather-degree")
+    (defpoll weather-stat-side :interval "5s"  "~/.config/eww/scripts/weather-trimmer")
+    (defpoll weather-quote :interval "5s"  "~/.config/eww/scripts/getwethquote")
+    (defvar pango "&lt;span foreground=\"#d08770\" font_family=\"icons\"&gt;&lt;/span&gt;")
+    ;; Vol vars 
+    (deflisten vol-icon "tail -F /tmp/vol-icon")
+    ;;(defpoll current-vol :interval "5s" "tail -F /tmp/vol")
+    (deflisten current-vol `tail -F /tmp/vol`)
+
+    ;; Bright vars 
+    ;;(deflisten current-bright "brightnessctl -m -d amdgpu_bl0 | awk -F, '{print substr($4, 0, length($4)-1)}' | tr -d '%'")
+    (deflisten current-bright "tail -F /tmp/bright")
+          (defwindow main_bottom 
+			    :geometry (geometry :anchor "bottom center" :y "12px")
+			     				(box :class "main_box" :orientation "h" :space-evenly "false" 
+                (profile)
+                
+                (weather)
+                (system_info)))
+      (defwindow vol 
+			    :geometry (geometry :height "16%" :y "18%" :anchor "center")
+			     				(vol))
+      (defwindow bright 
+			    :geometry (geometry :height "16%" :y "18%" :anchor "center")
+			     				(bright))
+      (defwindow border 
+			    :geometry (geometry :height "3px" :width "102%" :y "48px" :anchor "top center")
+			     				(box :class "border" :style "color: #3b4252"))
+      (defwindow border1 
+			    :geometry (geometry :height "7px" :width "102%" :anchor "top center")
+			     				(box :class "border1" :style "color: #2e3440"))
+       (defwindow border2 
+			    :geometry (geometry :height "7px" :y "41px" :width "102%" :anchor "top center")
+			     				(box :class "border1" :style "color: #2e3440"))
+  
+

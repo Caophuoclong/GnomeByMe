@@ -1,0 +1,47 @@
+{"message":"Preferences loaded from /home/phuoclong/.config/pomotroid/user-preferences.json","level":"info","hostname":"archlinux","timestamp":"2021-09-17T05:16:59.711Z"}
+{"message":"app ready","level":"info","hostname":"archlinux","timestamp":"2021-09-17T05:16:59.808Z"}
+{"message":"Registering shortcut for call-timer-toggle: Control+F1","level":"info","hostname":"archlinux","timestamp":"2021-09-17T05:16:59.929Z"}
+{"message":"Registering shortcut for call-timer-reset: Control+F2","level":"info","hostname":"archlinux","timestamp":"2021-09-17T05:16:59.930Z"}
+{"message":"Registering shortcut for call-timer-skip: Control+F3","level":"info","hostname":"archlinux","timestamp":"2021-09-17T05:16:59.930Z"}
+{"message":"Preferences loaded from /home/phuoclong/.config/pomotroid/user-preferences.json","level":"info","hostname":"archlinux","timestamp":"2021-09-17T05:17:00.220Z"}
+{"message":"focus round round started","level":"info","hostname":"archlinux","timestamp":"2021-09-17T05:17:06.500Z"}
+{"message":"focus round completed","level":"info","hostname":"archlinux","timestamp":"2021-09-17T05:42:06.538Z"}
+{"message":"short break round started","level":"info","hostname":"archlinux","timestamp":"2021-09-17T05:42:08.074Z"}
+{"message":"short break completed","level":"info","hostname":"archlinux","timestamp":"2021-09-17T05:47:08.092Z"}
+{"message":"focus round round started","level":"info","hostname":"archlinux","timestamp":"2021-09-17T05:47:09.606Z"}
+{"message":"focus round completed","level":"info","hostname":"archlinux","timestamp":"2021-09-17T06:12:09.634Z"}
+{"message":"short break round started","level":"info","hostname":"archlinux","timestamp":"2021-09-17T06:12:11.198Z"}
+{"message":"short break completed","level":"info","hostname":"archlinux","timestamp":"2021-09-17T06:17:11.200Z"}
+{"message":"focus round round started","level":"info","hostname":"archlinux","timestamp":"2021-09-17T06:17:12.711Z"}
+{"message":"focus round completed","level":"info","hostname":"archlinux","timestamp":"2021-09-17T06:42:12.730Z"}
+{"message":"short break round started","level":"info","hostname":"archlinux","timestamp":"2021-09-17T06:42:14.288Z"}
+{"message":"short break completed","level":"info","hostname":"archlinux","timestamp":"2021-09-17T06:47:14.304Z"}
+{"message":"focus round round started","level":"info","hostname":"archlinux","timestamp":"2021-09-17T06:47:15.863Z"}
+{"message":"focus round completed","level":"info","hostname":"archlinux","timestamp":"2021-09-17T07:12:15.955Z"}
+{"message":"long break round started","level":"info","hostname":"archlinux","timestamp":"2021-09-17T07:12:17.517Z"}
+{"message":"long break completed","level":"info","hostname":"archlinux","timestamp":"2021-09-17T07:27:17.556Z"}
+{"message":"focus round round started","level":"info","hostname":"archlinux","timestamp":"2021-09-17T07:27:19.136Z"}
+{"message":"focus round completed","level":"info","hostname":"archlinux","timestamp":"2021-09-17T07:52:19.139Z"}
+{"message":"short break round started","level":"info","hostname":"archlinux","timestamp":"2021-09-17T07:52:20.648Z"}
+{"message":"short break completed","level":"info","hostname":"archlinux","timestamp":"2021-09-17T07:57:20.651Z"}
+{"message":"focus round round started","level":"info","hostname":"archlinux","timestamp":"2021-09-17T07:57:22.163Z"}
+{"message":"focus round completed","level":"info","hostname":"archlinux","timestamp":"2021-09-17T08:22:22.175Z"}
+{"message":"short break round started","level":"info","hostname":"archlinux","timestamp":"2021-09-17T08:22:23.736Z"}
+{"message":"short break completed","level":"info","hostname":"archlinux","timestamp":"2021-09-17T08:27:23.738Z"}
+{"message":"focus round round started","level":"info","hostname":"archlinux","timestamp":"2021-09-17T08:27:25.252Z"}
+{"message":"focus round completed","level":"info","hostname":"archlinux","timestamp":"2021-09-17T08:52:25.254Z"}
+{"message":"short break round started","level":"info","hostname":"archlinux","timestamp":"2021-09-17T08:52:26.758Z"}
+{"message":"short break completed","level":"info","hostname":"archlinux","timestamp":"2021-09-17T08:57:26.782Z"}
+{"message":"focus round round started","level":"info","hostname":"archlinux","timestamp":"2021-09-17T08:57:28.351Z"}
+{"message":"focus round round paused","level":"info","hostname":"archlinux","timestamp":"2021-09-17T09:01:34.921Z"}
+{"message":"focus round round started","level":"info","hostname":"archlinux","timestamp":"2021-09-17T09:51:43.371Z"}
+{"message":"focus round completed","level":"info","hostname":"archlinux","timestamp":"2021-09-17T10:12:37.380Z"}
+{"message":"long break round started","level":"info","hostname":"archlinux","timestamp":"2021-09-17T10:12:38.887Z"}
+{"message":"long break completed","level":"info","hostname":"archlinux","timestamp":"2021-09-17T10:27:38.904Z"}
+{"message":"focus round round started","level":"info","hostname":"archlinux","timestamp":"2021-09-17T10:27:40.453Z"}
+{"message":"focus round completed","level":"info","hostname":"archlinux","timestamp":"2021-09-17T10:52:40.481Z"}
+{"message":"short break round started","level":"info","hostname":"archlinux","timestamp":"2021-09-17T10:52:42.034Z"}
+{"message":"short break round paused","level":"info","hostname":"archlinux","timestamp":"2021-09-17T10:53:25.979Z"}
+{"message":"short break round started","level":"info","hostname":"archlinux","timestamp":"2021-09-17T11:31:52.531Z"}
+{"message":"short break completed","level":"info","hostname":"archlinux","timestamp":"2021-09-17T11:36:09.555Z"}
+{"message":"focus round round started","level":"info","hostname":"archlinux","timestamp":"2021-09-17T11:36:11.105Z"}

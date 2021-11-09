@@ -1,0 +1,54 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/phuoclong/.config/pomotroid/logs/.5b163eef54e1041bc81ede68ddd18d266491a58f-audit.json",
+    "files": [
+        {
+            "date": 1631609580259,
+            "name": "/home/phuoclong/.config/pomotroid/logs/pomotroid-2021-09-14.log",
+            "hash": "10869226603297b55a8d30ef7e645e74"
+        },
+        {
+            "date": 1631639098275,
+            "name": "/home/phuoclong/.config/pomotroid/logs/pomotroid-2021-09-15.log",
+            "hash": "475ac683f7c0606322433858680f967c"
+        },
+        {
+            "date": 1631764947888,
+            "name": "/home/phuoclong/.config/pomotroid/logs/pomotroid-2021-09-16.log",
+            "hash": "1d39fad21244f9336224dcb5f3fa7230"
+        },
+        {
+            "date": 1631855819708,
+            "name": "/home/phuoclong/.config/pomotroid/logs/pomotroid-2021-09-17.log",
+            "hash": "6d1d884314b68c8d95b92c289419d645"
+        },
+        {
+            "date": 1631961533500,
+            "name": "/home/phuoclong/.config/pomotroid/logs/pomotroid-2021-09-18.log",
+            "hash": "a6da488af34dd24ea8439667c0f41554"
+        },
+        {
+            "date": 1632156255378,
+            "name": "/home/phuoclong/.config/pomotroid/logs/pomotroid-2021-09-20.log",
+            "hash": "e3580d4461c6d5972a60da72795b5e6f"
+        },
+        {
+            "date": 1632529060502,
+            "name": "/home/phuoclong/.config/pomotroid/logs/pomotroid-2021-09-25.log",
+            "hash": "7299f5a9a8342d548a0df8044728bf0e"
+        },
+        {
+            "date": 1632640895620,
+            "name": "/home/phuoclong/.config/pomotroid/logs/pomotroid-2021-09-26.log",
+            "hash": "d6bafca31e3a6fa52ef009f11c427a62"
+        },
+        {
+            "date": 1632682348288,
+            "name": "/home/phuoclong/.config/pomotroid/logs/pomotroid-2021-09-27.log",
+            "hash": "aceedb57e780426db1212411df08ff3a"
+        }
+    ]
+}

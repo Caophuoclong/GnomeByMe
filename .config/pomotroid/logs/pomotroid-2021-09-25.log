@@ -1,0 +1,6 @@
+{"message":"Preferences loaded from /home/phuoclong/.config/pomotroid/user-preferences.json","level":"info","hostname":"archlinux","timestamp":"2021-09-25T00:17:40.506Z"}
+{"message":"app ready","level":"info","hostname":"archlinux","timestamp":"2021-09-25T00:17:40.638Z"}
+{"message":"Registering shortcut for call-timer-toggle: Control+F1","level":"info","hostname":"archlinux","timestamp":"2021-09-25T00:17:40.721Z"}
+{"message":"Registering shortcut for call-timer-reset: Control+F2","level":"info","hostname":"archlinux","timestamp":"2021-09-25T00:17:40.721Z"}
+{"message":"Registering shortcut for call-timer-skip: Control+F3","level":"info","hostname":"archlinux","timestamp":"2021-09-25T00:17:40.721Z"}
+{"message":"Preferences loaded from /home/phuoclong/.config/pomotroid/user-preferences.json","level":"info","hostname":"archlinux","timestamp":"2021-09-25T00:17:41.007Z"}
